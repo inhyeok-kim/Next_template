@@ -1,6 +1,5 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import {useEffect} from 'react'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -13,10 +12,6 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   
-  useEffect(()=>{
-    console.log('hi app');
-  },[]);
-
   return (
     <html>
       <body >
